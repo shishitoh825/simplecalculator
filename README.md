@@ -1,5 +1,14 @@
 # simplecalculator
-===
-Overview
-This is a simple calculator with only four arithmetic operations.
-四則演算のみのシンプルな電卓です。
+# Discription
+This is a simple calculator with only four arithmetic operations.<br>
+四則演算のみのシンプルな電卓です。<br>
+直接入力するタイプではなく、ボタンで入力するタイプです。
+# 注意点
+・少数の計算もできますが、少数点を入力するボタンはありません。<br>
+・正規表現を使って計算に必要な数字や記号だけが入力されているときのみ動くようにしていますが、計算にEval関数を使っています。<br>
+・一度に入力できる演算子（演算記号）は1つまでです。<br>
+例として、 9 × 8 + 7 - 3のような計算は一度にはできません。<br>
+演算子を一度に2つ以上使おうとすると警告が出ます。
+・ × のボタンを押すと計算の表示の上では * となります。<br>
+・0から始まる数字を入力できてしまい見栄えが悪いですが、計算の機能としての問題はないはずです。<br>
+・数字を0で割ると Infinity と表示され警告が出ます。
