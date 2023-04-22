@@ -7,7 +7,7 @@
 ・Only one operator can be entered at a time.<br>
 As an example, a calculation like 9 × 8 + 7 - 3 cannot be done at once.<br>
 If you try to use more than one operator at a time, you will get an alert.<br>
-・Pressing the × button will result in a * on the display of the calculation.<br>
+・Pressing the × button will result in a * on the display of the calculation.The ÷ button will likewise result in a /.<br>
 ・It is a little unsightly because you can enter numbers starting with 0, but there should be no problem with the functionality of the calculation.<br>
 ・Divide the number by zero and you will see Infinity and an alert.
 # 説明
@@ -18,6 +18,6 @@ If you try to use more than one operator at a time, you will get an alert.<br>
 ・一度に入力できる演算子（演算記号）は1つまでです。<br>
 例として、 9 × 8 + 7 - 3のような計算は一度にはできません。<br>
 演算子を一度に2つ以上使おうとすると警告が出ます。<br>
-・ × のボタンを押すと計算の表示の上では * となります。<br>
+・ × のボタンを押すと計算の表示の上では * となります。 ÷ のボタンの場合も同様に / となります。<br>
 ・0から始まる数字を入力できてしまい少し見栄えが悪いですが、計算の機能としての問題はないはずです。<br>
 ・数字を0で割ると Infinity と表示され警告が出ます。
