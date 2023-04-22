@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>simplecalculator</title>
+    <style>
+        .class1{
+            width: 80px; height: 80px; font-size: 30px;
+        }
+        .class2{
+            width: 330px; height: 80px; font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="result" disabled; class = 'class2'>
+    <br>
+    <button onclick="addNumber(7)"; class = 'class1'>7</button>
+    <button onclick="addNumber(8)"; class = 'class1'>8</button>
+    <button onclick="addNumber(9)"; class = 'class1'>9</button>
+    <button onclick="addOperator('/')"; class = 'class1'>÷</button>
+    <br>
+    <button onclick="addNumber(4)"; class = 'class1'>4</button>
+    <button onclick="addNumber(5)"; class = 'class1'>5</button>
+    <button onclick="addNumber(6)"; class = 'class1'>6</button>
+    <button onclick="addOperator('*')"; class = 'class1'>×</button>
+    <br>
+    <button onclick="addNumber(1)"; class = 'class1'>1</button>
+    <button onclick="addNumber(2)"; class = 'class1'>2</button>
+    <button onclick="addNumber(3)"; class = 'class1'>3</button>
+    <button onclick="addOperator('-')"; class = 'class1'>-</button>
+    <br>
+    <button onclick="allclear()"; class = 'class1'>AC</button>
+    <button onclick="addNumber(0)"; class = 'class1'>0</button>
+    <button onclick="calculate()"; class = 'class1'>=</button>
+    <button onclick="addOperator('+')"; class = 'class1'>+</button>
+    <script src = "simplecalculator.js"></script>
+</body>
+</html>
